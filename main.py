@@ -21,8 +21,8 @@ from ParallelToolbox import ParallelToolbox
 from read_data import read_data
 from selection import *
 
-POP_SIZE = 102  # 4
-NGEN = 30
+POP_SIZE = 1024
+NGEN = 100
 CXPB = 0.8
 MUTPB = 0.2
 ELITISM = 10
